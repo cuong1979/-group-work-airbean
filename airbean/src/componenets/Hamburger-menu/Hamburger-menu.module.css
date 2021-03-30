@@ -1,0 +1,43 @@
+.link {
+    height: fit-content;
+    width: fit-content;
+
+    cursor: pointer;
+}
+.hamburger {
+    background-color: #fff;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stick {
+    display: block;
+    height: 0.125rem;
+    width: 1.625rem;
+    background-color: #222222;
+    border-radius: 10px;
+    position: relative;
+}
+    .stick::before {
+        position: absolute;
+        content: "";
+        top: 9px;
+        left: 0;
+        height: inherit;
+        width: 100%;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+    .stick::after {
+        position: absolute;
+        content: "";
+        bottom: 9px;
+        left: 0;
+        height: inherit;
+        width: 100%;
+        background-color: #222222;
+        border-radius: 10px;
+    }

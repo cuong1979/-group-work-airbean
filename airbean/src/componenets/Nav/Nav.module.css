@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+/* font-family: 'PT Serif', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+/* font-family: 'Work Sans', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navBody{
+    position: relative;
+    width: 23.4375rem;
+    height: 41.6875rem;
+    background: #2F2926;
+    margin: 0 auto;
+}
+
+.xContainer{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    left: 1rem;
+    top: 1rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.x{
+    position: absolute;
+    width: 1.21125rem;
+    height: 1.21125rem;
+    left: 0.875rem;
+    top: 0.875rem;
+}
+
+.nav{
+    height: 95%;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menyandcoffe{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+
+.rectangle{
+    width: 3rem;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}

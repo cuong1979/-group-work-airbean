@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+/* font-family: 'PT Serif', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+/* font-family: 'Work Sans', sans-serif; */
+
+.wrap {
+    width: 375px;
+     margin: 0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
+.MenuNav {
+    margin: 0 auto;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+.menuContainer {
+    width: 100%;
+    min-height: 839px;
+    background: #f3e4e1;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.menuContainer::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../assets/graphics/graphics-header.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: inherit;
+}
+
+.menuContainer::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../assets/graphics/graphics-footer.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: inherit;
+}
+
+.hiddenBox {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: absolute;
+    z-index: 9000;
+}
+
+.menuh1 {
+    padding: 50px;
+    font-family: "PT Serif", serif;
+    font-size: 2.625rem;
+    color: #2F2926;
+}
+
+.menuh1 {
+    padding: 50px;
+    font-family: "PT Serif", serif;
+}
+
+.dataLista {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+
+.dropdownArrow {
+    height: 1.35rem;
+    width: 1.35rem;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    transform: rotate(45deg);
+    /* Standard */
+    background: #fff;
+    position: absolute;
+    bottom: -1rem;
+}
+
+.listItem {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 311px;
+    height: 64px;
+}
+
+.listItem div:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.listItem div:last-of-type {
+    display: flex;
+}
+
+.imgDiv {
+    background-color: #2F2926;
+    height: 3.75rem;
+    width: 3.75rem;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.imgPlus {
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.imgBag {
+    text-align: center;
+}
+
+.totalDrinks {
+    position: absolute;
+    top: -0.1rem;
+    right: -0.1rem;
+    background-color: #E5674E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.375rem;
+    height: 1.375rem;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: .875rem;
+}
+
+.navIcon {
+    height: 15px;
+}
+
+.menucafe {
+    display: flex;
+    flex-direction: column;
+}
+
+.menucafe h6 {
+    width: 194.44px;
+    height: 24px;
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    color: #2F2926;
+    text-align: start;
+    padding-left: 8px;
+    margin-top: -13px;
+}
+
+.cafe {
+    width: 100%;
+}
+
+.cafe span:first-of-type {
+    width: 194.44px;
+    height: 46px;
+    text-align: start;
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 120%;
+    color: #2F2926;
+}
+
+.cafe span:last-of-type {
+    width: 76.75px;
+    height: 46px;
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 120%;
+    color: #2F2926;
+}
+
+.dodded {
+    display: inline;
+    position: absolute;
+    right: 140px;
+    width: 100px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+}

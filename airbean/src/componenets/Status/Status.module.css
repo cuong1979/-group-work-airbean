@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+/* font-family: 'PT Serif', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+.statusCountainer {
+    margin: 0 auto;
+    width: 375px;
+    height: 667px;
+    background: #E5674E;
+}
+
+.statusCountainer h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 80px;
+}
+
+.drone {
+    margin-top: 50px;
+}
+
+.statusCountainer h1 {
+    padding: 50px 50px;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.statusCountainer span:first-of-type {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.statusCountainer span:last-of-type {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.statusCountainer button {
+    
+    margin: 50px auto;
+    width: 184px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #2F2926;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border : none;
+    outline: none;
+
+}
